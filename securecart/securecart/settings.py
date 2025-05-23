@@ -24,7 +24,9 @@ SECRET_KEY = env("SECRET_KEY", default="your-default-secret-key")
 
 DEBUG = env.bool("DEBUG", default=True)
 
-ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["localhost", "127.0.0.1"])
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["localhost", "127.0.0.1", "securecart-dysc.onrender.com"])
+
+CSRF_TRUSTED_ORIGINS = ['https://securecart-dysc.onrender.com']
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
