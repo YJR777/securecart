@@ -69,7 +69,10 @@ MIDDLEWARE = [
     'axes.middleware.AxesMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = env.list("CORS_ALLOWED_ORIGINS", default=["http://localhost:3000"])
+CORS_ALLOWED_ORIGINS = env.list(
+    "CORS_ALLOWED_ORIGINS", 
+    default=["http://localhost:3000", "https://securecart-dysc.onrender.com"]
+)
 
 ROOT_URLCONF = 'securecart.urls'
 
