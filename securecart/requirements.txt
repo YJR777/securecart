@@ -8,3 +8,4 @@ scapy==2.5.0
 sqlparse==0.5.2
 tzdata==2024.2
 django-environ==0.10.0
+gunicorn
