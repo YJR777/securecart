@@ -1,1 +1,2 @@
-web: gunicorn securecart.securecart.wsgi
+web: gunicorn securecart.wsgi
+
