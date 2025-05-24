@@ -1,3 +1,6 @@
+# This GitHub Actions workflow implements SecureCart's CI pipeline.
+# It installs dependencies, sets up Python 3.12, and performs SAST using Snyk.
+# For more details, see Section 5.4 of the submitted coursework report.
 name: SecureCart CI/CD
 
 on:
