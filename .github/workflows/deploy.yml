@@ -1,3 +1,7 @@
+# NOTE: This workflow file was created for testing purposes only.
+# It was used to experiment with deployment logic during development.
+# The main functional CI/CD workflow is defined in .github/workflows/ci.yml,
+# which is referenced in the submitted coursework report.
 name: CI/CD Pipeline for SecureCart
 
 on:
